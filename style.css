@@ -73,8 +73,6 @@
   }
   
   .blog_card__img {
-    /* max-width: 100%; */
-    /* max-width: 100%; means take the full width of the container within */
     border-radius: 0.5rem;
   }
   
@@ -111,7 +109,7 @@
   }
   
   
-  /* utility calss to style avatar and name */
+
   .flex-group {
     display: flex;
     align-items: center;

@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card
 
-## Desktop Final Output👇 [Link 🔗]()
+## Desktop Final Output👇 [Link 🔗](https://shubham-blog-card.netlify.app/)
 ![Desktop design preview for the Blog preview card coding challenge](desktop_design.png)
 
 ## Mobile Final Output👇
