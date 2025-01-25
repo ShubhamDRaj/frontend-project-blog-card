@@ -92,8 +92,17 @@ body {
     box-shadow: 8px 8px black;
 }
 
-.card-img {
+.img-cover {
+    position: relative;
     border-radius: 0.5rem;
+    overflow: hidden;
+    height: 200PX;
+}
+
+.card-img {
+    /* border-radius: 0.5rem; */
+    transform: scale(1.2);
+    height: 200PX;
 }
 
 .card-content {
@@ -138,19 +147,36 @@ body {
 }
 
 @media (min-width: 767px) {
+    .card {
+        padding-block-end: 1.5rem;
+    }
+    .flex-flow {
+        margin-block-start: -0.125rem;
+    }
+    .img-cover {
+        height: auto;
+    }
+    .card-img {
+        transform: scale(1);
+        height: auto;
+    }
+
     .card-topic {
         font-size: 0.875rem;
     }
 
     .card-published-date {
         font-size: 0.875rem;
+        margin-block-start: 0.125rem;
     }
-
+    
     .card-title {
         font-size: 1.5rem;
+        margin-block-start: -0.125rem;
     }
 
     .card-description {
         font-size: 1rem;
+        margin-block-start: -1px;
     }
 }
